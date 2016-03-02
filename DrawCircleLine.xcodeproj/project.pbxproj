@@ -55,13 +55,37 @@
 			isa = PBXGroup;
 			children = (
 				FD30B2ED1C871B03008FFA69 /* AppDelegate.swift */,
-				FD30B2EF1C871B04008FFA69 /* ViewController.swift */,
-				FD30B2F11C871B04008FFA69 /* Main.storyboard */,
+				FD30B2FF1C871D40008FFA69 /* Controllers */,
+				FD30B3001C871D4C008FFA69 /* Views */,
+				FD30B3011C871D59008FFA69 /* Utils */,
 				FD30B2F41C871B04008FFA69 /* Assets.xcassets */,
-				FD30B2F61C871B04008FFA69 /* LaunchScreen.storyboard */,
 				FD30B2F91C871B04008FFA69 /* Info.plist */,
 			);
 			path = DrawCircleLine;
+			sourceTree = "<group>";
+		};
+		FD30B2FF1C871D40008FFA69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD30B2EF1C871B04008FFA69 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FD30B3001C871D4C008FFA69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD30B2F11C871B04008FFA69 /* Main.storyboard */,
+				FD30B2F61C871B04008FFA69 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD30B3011C871D59008FFA69 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrawCircleLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.DrawCircleLine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrawCircleLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.DrawCircleLine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
